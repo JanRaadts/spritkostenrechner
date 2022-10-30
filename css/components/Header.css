@@ -1,0 +1,22 @@
+.navigation_top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(46, 46, 46);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 60px;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.navigation_top-links {
+  text-decoration: none;
+  color: rgb(63, 63, 234);
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  /* border: 3px;
+    border-color: rgb(255, 0, 43);
+    border-style: dotted; */
+}
+
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}

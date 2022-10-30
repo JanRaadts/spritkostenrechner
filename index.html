@@ -16,27 +16,27 @@
     </header>
     <main class="main">
       <section class="berechnungstabelle">
-        <section class="personenanzahl">
-          <label for="personenanzahl">Anzahl Personen</label>
-          <input type="number" data-js="anzahlpersonen" />
+        <section class="input">
+          <label for="input">Anzahl Personen</label>
+          <input type="number" data-js="anzahlpersonen" class="inputfield" />
         </section>
-        <section class="personenanzahl">
-          <label for="personenanzahl">Anzahl km</label>
-          <input type="number" />
+        <section class="input">
+          <label for="input">Anzahl km</label>
+          <input type="number" data-js="anzahlkm" class="inputfield" />
         </section>
-        <section class="personenanzahl">
-          <label for="personenanzahl">Sprit-Preis pro Liter</label>
-          <input type="number" />
+        <section class="input">
+          <label for="input">Sprit-Preis pro Liter</label>
+          <input type="number" data-js="preisproliter" class="inputfield" />
         </section>
-        <section class="personenanzahl">
-          <label for="personenanzahl">Durchschnitt Verbrauch in Liter</label>
-          <input type="number" />
+        <section class="input">
+          <label for="input">Verbrauch in Liter</label>
+          <input type="number" data-js="verbrauch" class="inputfield" />
         </section>
         <section class="berechnen">
           <button type="button" class="berechnen_btn" data-js="btnBerechnen">
             Berechnen
           </button>
-          <input type="number" />
+          <p js-data="output" class="output"></p>
         </section>
       </section>
     </main>

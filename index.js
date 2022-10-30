@@ -1,9 +1,11 @@
 // Variablen aus dem Formular
 
-const anzahlPersonen = 3;
+const anzahlPersonen = document.getElementsByClassName(".inputfield").value;
 const anzahlKm = 180;
 const preisProLiter = 1.9;
 const verbrauchDurchschnitt = 9;
+
+console.log(anzahlPersonen);
 
 // Funktion zur Sprikostenberechnung
 

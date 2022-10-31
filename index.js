@@ -27,3 +27,12 @@ button.addEventListener("click", () => {
   output.style.color = "white";
   console.log(berechnung());
 });
+
+// delete variable
+let buttonDelete = document.querySelector('[js-data="delete"]');
+
+// delete button click
+buttonDelete.addEventListener("click", () => {
+  console.log("hello world");
+  output = "0";
+});

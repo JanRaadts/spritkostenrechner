@@ -24,5 +24,6 @@ const output = document.querySelector('[js-data="output"]');
 // Button Click funktion ausführung der funktion und ausgabe in der Konsole
 button.addEventListener("click", () => {
   output.textContent = berechnung().toFixed(2);
+  output.style.color = "white";
   console.log(berechnung());
 });

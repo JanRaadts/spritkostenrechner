@@ -13,6 +13,21 @@
   border-style: dotted; */
 }
 
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::placeholder {
+  color: rgb(237, 233, 233);
+  opacity: 1;
+}
+
 ::after,
 ::before {
   box-sizing: border-box;
@@ -21,5 +36,5 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgba(38, 46, 55, 255);
 }

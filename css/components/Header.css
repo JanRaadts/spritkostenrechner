@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
   height: 60px;
-  background-color: rgba(60, 67, 77, 255);
+  background-color: #fb7b5b;
   position: fixed;
   width: 100%;
   top: 0;
@@ -11,7 +11,7 @@
 }
 
 h1 {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 

@@ -51,7 +51,7 @@
   border-radius: 10%;
   font-size: 20px;
   padding: 10px 10px;
-  font: roboto;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.212);
 }
 
 .inputfield {

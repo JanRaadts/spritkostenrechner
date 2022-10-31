@@ -1,15 +1,17 @@
-// Variablen aus dem Formular
-
-const anzahlPersonen = document.getElementsByClassName(".inputfield").value;
-const anzahlKm = 180;
-const preisProLiter = 1.9;
-const verbrauchDurchschnitt = 9;
-
-console.log(anzahlPersonen);
-
 // Funktion zur Sprikostenberechnung
 
 function berechnung() {
+  // Variablen aus dem Formular
+  const inputAP = document.querySelector('[data-js="inputAP"]');
+  const inputKM = document.querySelector('[data-js="inputKM"]');
+  const inputPreis = document.querySelector('[data-js="inputPreis"]');
+  const inputVerbrauch = document.querySelector('[data-js="inputVerbrauch"]');
+
+  const anzahlPersonen = Number(inputAP.value);
+  const anzahlKm = Number(inputKM.value);
+  const preisProLiter = Number(inputPreis.value);
+  const verbrauchDurchschnitt = Number(inputVerbrauch.value);
+
   const result =
     ((verbrauchDurchschnitt / 100) * anzahlKm * preisProLiter) / anzahlPersonen;
   return result;
@@ -21,5 +23,6 @@ const output = document.querySelector('[js-data="output"]');
 
 // Button Click funktion ausführung der funktion und ausgabe in der Konsole
 button.addEventListener("click", () => {
+  output.textContent = berechnung().toFixed(2);
   console.log(berechnung());
 });

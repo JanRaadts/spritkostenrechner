@@ -8,9 +8,9 @@
   padding: 0;
   margin: 0;
   font-family: roboto;
-  /* border: 3px;
-    border-color: rgb(255, 0, 43);
-    border-style: dotted; */
+  border: 3px;
+  border-color: rgb(255, 0, 43);
+  border-style: dotted;
 }
 
 ::after,

@@ -18,3 +18,8 @@
 .icons {
   width: 70%;
 }
+
+.deleteBTN {
+  border: none;
+  background-color: #fb7b5b;
+}

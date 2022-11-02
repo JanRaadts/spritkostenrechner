@@ -29,10 +29,9 @@ button.addEventListener("click", () => {
 });
 
 // delete variable
-let buttonDelete = document.querySelector('[js-data="delete"]');
+const buttonDelete = document.querySelector(".deleteBTN");
 
 // delete button click
 buttonDelete.addEventListener("click", () => {
-  console.log("hello world");
-  output = "0";
+  output.textContent = "";
 });
